@@ -2,6 +2,7 @@
   "name": "developerdao-job-board",
   "private": true,
   "scripts": {
+    "local": "node ./packages/server/server.js",
     "dev": "yarn workspace client dev",
     "build": "yarn workspace client build",
     "start": "yarn workspace client start",
